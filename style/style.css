@@ -126,7 +126,7 @@ body {
   position: absolute;
   width: 80px;
   top: -35px;
-  left: 41.5%;
+  right: 41.5%;
   /* transform: scale(0.1); */
 }
 
@@ -151,62 +151,62 @@ body {
   width: 25px;
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   visibility: hidden;
   z-index: -1;
 }
 
 .eight svg:nth-child(1) {
   top: 7vh;
-  left: 5vw;
+  right: 5vw;
   fill: #bd6ecf;
 }
 
 .eight svg:nth-child(2) {
   top: 23vh;
-  left: 35vw;
+  right: 35vw;
   fill: #7dd175;
 }
 
 .eight svg:nth-child(3) {
   top: 33vh;
-  left: 23vw;
+  right: 23vw;
   fill: #349d8b;
 }
 
 .eight svg:nth-child(4) {
   top: 43vh;
-  left: 57vw;
+  right: 57vw;
   fill: #347a9d;
 }
 
 .eight svg:nth-child(5) {
   top: 68vh;
-  left: 7vw;
+  right: 7vw;
   fill: #c66053;
 }
 
 .eight svg:nth-child(6) {
   top: 42vh;
-  left: 77vw;
+  right: 77vw;
   fill: #bfaa40;
 }
 
 .eight svg:nth-child(7) {
   top: 68vh;
-  left: 83vw;
+  right: 83vw;
   fill: #e3bae8;
 }
 
 .eight svg:nth-child(8) {
   top: 86vh;
-  left: 37vw;
+  right: 37vw;
   fill: #8762cb;
 }
 
 .eight svg:nth-child(9) {
   top: 94vh;
-  left: 87vw;
+  right: 87vw;
   fill: #9a90da;
 }
 
@@ -235,25 +235,25 @@ body {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 40%;
+    right: 40%;
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 37%;
+    right: 37%;
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: 32%;
+    right: 32%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 32%;
+    right: 32%;
   }
 }
 
